@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AuthSystem.Data
+namespace AuthSystem.Data 
 {
     public class AuthDbContext : IdentityDbContext<ApplicationUser>
     {
